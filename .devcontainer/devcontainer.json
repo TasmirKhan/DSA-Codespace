@@ -1,0 +1,15 @@
+{
+  "name": "DSA Codespace",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "settings": {
+    "editor.fontSize": 16,
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "formulahendry.code-runner",
+    "usernamehw.errorlens",
+    "VisualStudioExptTeam.vscodeintellicode"
+  ],
+  "postCreateCommand": "echo 'Welcome to your DSA Codespace!'"
+}
